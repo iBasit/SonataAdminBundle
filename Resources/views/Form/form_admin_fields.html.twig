@@ -53,6 +53,7 @@ file that was distributed with this source code.
     {{ parent() }}
 {% endblock form_widget_simple %}
 
+
 {% block textarea_widget %}
     {% set attr = attr|merge({'class': attr.class|default('') ~ ' form-control'}) %}
     {{ parent() }}
